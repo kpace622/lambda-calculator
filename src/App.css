@@ -5,6 +5,7 @@
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    box-sizing: border-box;
 }
 .display {
     margin-top: 25px;
@@ -19,4 +20,56 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+  }
+
+  .buttons {
+      background-color: skyblue;
+      color: white;
+      margin: 24px;
+      font-size: 2rem;
+      width: 85px;
+      height: 85px;
+      padding: 1.2rem;
+      border-radius: 50%;
+  }
+
+  .operator-container {
+    display: flex;
+    flex-direction: column;
+    /* width: 80%; */
+  }
+
+  .merged-container {
+    padding-left: 10px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .complete-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .special-container {
+      max-width: 98%;
+  }
+
+  .numbers-container {
+    max-width: 98%;
+}
+
+  .logo {
+      margin-left: 40px;
+      margin-top: 40px;;
+  }
+
+  .display {
+      margin-left: 25px;
+  }
+
+  .flex-column {
+      display: flex;
+      flex-direction: column;
   }
